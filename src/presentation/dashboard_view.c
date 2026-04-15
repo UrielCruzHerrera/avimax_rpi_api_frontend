@@ -118,20 +118,20 @@ DashboardView *dashboard_view_new(AppState *state, GtkStack *stack) {
     view->state = state;
     view->stack = stack;
 
-    GtkWidget *root = gtk_box_new(GTK_ORIENTATION_VERTICAL, 20);
-    GtkWidget *header = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 20);
+    GtkWidget *root = gtk_box_new(GTK_ORIENTATION_VERTICAL, 10);
+    GtkWidget *header = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 10);
     GtkWidget *logo = load_icon_or_placeholder("assets/icons/logo.png", "AviMax", 90, 90);
-    GtkWidget *cards = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 24);
+    GtkWidget *cards = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 12);
     GtkWidget *spacer = gtk_label_new("");
     GtkWidget *btn_menu = create_nav_button("☰ Menu", "menu", stack);
 
     view->lbl_dia = gtk_label_new("Dia --");
     view->lbl_status = gtk_label_new("Esperando API...");
 
-    gtk_widget_set_margin_top(root, 12);
-    gtk_widget_set_margin_bottom(root, 12);
-    gtk_widget_set_margin_start(root, 12);
-    gtk_widget_set_margin_end(root, 12);
+    gtk_widget_set_margin_top(root, 6);
+    gtk_widget_set_margin_bottom(root, 6);
+    gtk_widget_set_margin_start(root, 6);
+    gtk_widget_set_margin_end(root, 6);
 
     gtk_widget_set_halign(logo, GTK_ALIGN_START);
     gtk_widget_set_hexpand(view->lbl_dia, TRUE);
