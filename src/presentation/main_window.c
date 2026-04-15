@@ -6,7 +6,7 @@
 GtkWidget *main_window_create(AppState *state) {
     GtkWidget *window = gtk_window_new(GTK_WINDOW_TOPLEVEL);
     gtk_window_set_title(GTK_WINDOW(window), "AviMax");
-    gtk_window_set_default_size(GTK_WINDOW(window), 700, 600);
+    gtk_window_set_default_size(GTK_WINDOW(window), 900, 400);
     gtk_container_set_border_width(GTK_CONTAINER(window), 24);
     gtk_style_context_add_class(gtk_widget_get_style_context(window), "app-window");
 
