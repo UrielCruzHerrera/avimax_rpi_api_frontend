@@ -1,0 +1,201 @@
+window.app-window {
+    background-image: linear-gradient(135deg, #eaf2ff, #d9e6ff 45%, #eef3ff);
+}
+
+box.screen-root {
+    padding: 8px;
+}
+
+label.brand-title {
+    font-size: 34px;
+    font-weight: 900;
+    color: #2537c7;
+    letter-spacing: 0.5px;
+}
+
+label.brand-placeholder,
+image.brand-placeholder {
+    min-width: 74px;
+    min-height: 74px;
+}
+
+label.day-badge {
+    font-size: 18px;
+    font-weight: 800;
+    color: #111827;
+    background: rgba(255,255,255,0.88);
+    border-radius: 20px;
+    padding: 10px 18px;
+    border: 2px solid rgba(86, 104, 255, 0.18);
+}
+
+label.api-status {
+    font-size: 15px;
+    font-weight: 700;
+    color: #274690;
+    background: rgba(255,255,255,0.70);
+    border-radius: 16px;
+    padding: 8px 16px;
+}
+
+frame.metric-card,
+button.menu-card,
+frame.table-frame {
+    background: rgba(255, 255, 255, 0.88);
+    border-radius: 22px;
+    border: 2px solid rgba(255,255,255,0.9);
+    box-shadow: 0 10px 24px rgba(49, 69, 180, 0.14);
+    padding: 12px;
+}
+
+frame.card-temp {
+    background-image: linear-gradient(180deg, #fff8f3, #fff0e6);
+    border-color: rgba(255, 133, 76, 0.35);
+}
+
+frame.card-nh3 {
+    background-image: linear-gradient(180deg, #fffef2, #fff9cc);
+    border-color: rgba(204, 192, 56, 0.40);
+}
+
+frame.card-hum {
+    background-image: linear-gradient(180deg, #f4f7ff, #e6eeff);
+    border-color: rgba(92, 113, 255, 0.30);
+}
+
+label.metric-title,
+label.menu-card-title,
+label.screen-title,
+label.table-header,
+label.table-cell {
+    font-weight: 800;
+    color: #101828;
+}
+
+label.metric-title,
+label.menu-card-title {
+    font-size: 18px;
+}
+
+label.metric-icon {
+    font-size: 18px;
+    font-weight: 700;
+    color: #425466;
+}
+
+label.metric-value {
+    font-size: 28px;
+    font-weight: 900;
+}
+
+label.value-temp {
+    color: #16a34a;
+}
+
+label.value-nh3 {
+    color: #648600;
+}
+
+label.value-hum {
+    color: #4f46e5;
+}
+
+label.screen-title {
+    font-size: 32px;
+    color: #0f172a;
+}
+
+button.menu-card {
+    min-width: 190px;
+    min-height: 150px;
+    border-radius: 24px;
+    padding: 4px;
+}
+
+button.menu-card:hover {
+    background-image: linear-gradient(180deg, #ffffff, #eef2ff);
+}
+
+button.menu-vent {
+    background-image: linear-gradient(180deg, #eef5ff, #dbeafe);
+    border-color: rgba(59,130,246,0.35);
+}
+
+button.menu-cria {
+    background-image: linear-gradient(180deg, #fff3f6, #ffe4ea);
+    border-color: rgba(244,63,94,0.28);
+}
+
+button.menu-bomb {
+    background-image: linear-gradient(180deg, #effffd, #d7fff6);
+    border-color: rgba(20,184,166,0.30);
+}
+
+button.menu-parvada {
+    background-image: linear-gradient(180deg, #fffbea, #fef3c7);
+    border-color: rgba(245,158,11,0.35);
+}
+
+button.primary-btn,
+button.nav-btn {
+    border-radius: 18px;
+    border: none;
+    padding: 12px 22px;
+    font-weight: 800;
+    font-size: 17px;
+}
+
+button.primary-btn {
+    background-image: linear-gradient(180deg, #5d5fff, #4548f5);
+    color: #ffffff;
+}
+
+button.nav-btn {
+    background-image: linear-gradient(180deg, #ffffff, #f3f4ff);
+    color: #111827;
+    border: 2px solid rgba(93,95,255,0.18);
+}
+
+button.dashboard-menu-btn {
+    min-width: 160px;
+    padding: 14px 24px;
+}
+
+label.table-header {
+    font-size: 20px;
+    color: #111827;
+}
+
+label.table-cell {
+    font-size: 18px;
+}
+
+frame.table-frame {
+    padding: 18px;
+}
+
+frame.pill-green,
+frame.pill-red,
+frame.pill-blue {
+    border-radius: 12px;
+    border: none;
+    padding: 8px 14px;
+}
+
+frame.pill-green {
+    background-image: linear-gradient(180deg, #22c55e, #16a34a);
+}
+
+frame.pill-red {
+    background-image: linear-gradient(180deg, #ef4444, #b91c1c);
+}
+
+frame.pill-blue {
+    background-image: linear-gradient(180deg, #6366f1, #4338ca);
+}
+
+label.table-pill-text {
+    font-size: 16px;
+    font-weight: 900;
+    color: #ffffff;
+}
