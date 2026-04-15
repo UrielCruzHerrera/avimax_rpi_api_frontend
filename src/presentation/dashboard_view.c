@@ -122,7 +122,7 @@ DashboardView *dashboard_view_new(AppState *state, GtkStack *stack) {
     GtkWidget *header = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 10);
     GtkWidget *logo = load_icon_or_placeholder("assets/icons/logo.png", "AviMax", 90, 90);
     GtkWidget *cards = gtk_box_new(GTK_ORIENTATION_HORIZONTAL, 12);
-    GtkWidget *spacer = gtk_label_new("");
+    //GtkWidget *spacer = gtk_label_new("");
     GtkWidget *btn_menu = create_nav_button("☰ Menu", "menu", stack);
 
     view->lbl_dia = gtk_label_new("Dia --");
@@ -137,8 +137,8 @@ DashboardView *dashboard_view_new(AppState *state, GtkStack *stack) {
     gtk_widget_set_hexpand(view->lbl_dia, TRUE);
     gtk_widget_set_halign(view->lbl_dia, GTK_ALIGN_END);
 
-    gtk_widget_set_hexpand(spacer, TRUE);
-    gtk_widget_set_vexpand(spacer, TRUE);
+    //gtk_widget_set_hexpand(spacer, TRUE);
+    //gtk_widget_set_vexpand(spacer, TRUE);
 
     gtk_widget_set_halign(btn_menu, GTK_ALIGN_CENTER);
     gtk_widget_set_margin_top(btn_menu, 10);
@@ -180,7 +180,7 @@ DashboardView *dashboard_view_new(AppState *state, GtkStack *stack) {
 
     gtk_box_pack_start(GTK_BOX(root), header, FALSE, FALSE, 0);
     gtk_box_pack_start(GTK_BOX(root), cards, FALSE, FALSE, 0);
-    gtk_box_pack_start(GTK_BOX(root), spacer, TRUE, TRUE, 0);
+    //gtk_box_pack_start(GTK_BOX(root), spacer, TRUE, TRUE, 0);
     gtk_box_pack_start(GTK_BOX(root), btn_menu, FALSE, FALSE, 0);
     gtk_box_pack_end(GTK_BOX(root), view->lbl_status, FALSE, FALSE, 0);
 
