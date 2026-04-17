@@ -101,15 +101,15 @@ label.value-hum {
 }
 
 label.screen-title {
-    font-size: 32px;
+    font-size: 22px;
     color: #0f172a;
 }
 
 button.menu-card {
-    min-width: 190px;
-    min-height: 150px;
-    border-radius: 24px;
-    padding: 4px;
+    min-width: 135px;
+    min-height: 100px;
+    border-radius: 18px;
+    padding: 2px;
 }
 
 button.menu-card:hover {
@@ -138,11 +138,11 @@ button.menu-parvada {
 
 button.primary-btn,
 button.nav-btn {
-    border-radius: 18px;
+    border-radius: 14px;
     border: none;
-    padding: 12px 22px;
+    padding: 8px 12px;
     font-weight: 800;
-    font-size: 17px;
+    font-size: 13px;
 }
 
 button.primary-btn {
@@ -162,16 +162,16 @@ button.dashboard-menu-btn {
 }
 
 label.table-header {
-    font-size: 20px;
+    font-size: 15px;
     color: #111827;
 }
 
 label.table-cell {
-    font-size: 18px;
+    font-size: 14px;
 }
 
 frame.table-frame {
-    padding: 18px;
+    padding: 88px;
 }
 
 frame.pill-green,
@@ -195,7 +195,7 @@ frame.pill-blue {
 }
 
 label.table-pill-text {
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 900;
     color: #ffffff;
 }
