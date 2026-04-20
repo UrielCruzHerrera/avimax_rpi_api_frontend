@@ -6,9 +6,16 @@
 GtkWidget *main_window_create(AppState *state) {
     GtkWidget *window = gtk_window_new(GTK_WINDOW_TOPLEVEL);
     gtk_window_set_title(GTK_WINDOW(window), "AviMax");
-    gtk_window_set_default_size(GTK_WINDOW(window), 720, 430);
+
+    /* modo kiosco */
+    gtk_window_set_decorated(GTK_WINDOW(window), FALSE);
     gtk_window_set_resizable(GTK_WINDOW(window), FALSE);
-    gtk_container_set_border_width(GTK_CONTAINER(window), 8);
+    gtk_window_set_skip_taskbar_hint(GTK_WINDOW(window), TRUE);
+    gtk_window_set_skip_pager_hint(GTK_WINDOW(window), TRUE);
+    gtk_window_set_keep_above(GTK_WINDOW(window), TRUE);
+    gtk_window_fullscreen(GTK_WINDOW(window));
+
+    gtk_container_set_border_width(GTK_CONTAINER(window), 4);
     gtk_style_context_add_class(gtk_widget_get_style_context(window), "app-window");
 
     GtkWidget *stack = gtk_stack_new();
